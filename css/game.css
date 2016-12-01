@@ -1,0 +1,106 @@
+body,html{height:100%;padding:0px;margin:0px;background-image: url("../img/fondo.png");}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{height:15%;width:100%;position:fixed;bottom:0px;}
+.nigga{height: 20%;width:100%;}
+
+#nave{
+	margin: auto;
+	display: none;
+	padding-top: 10%;
+	
+	height:100%;
+}
+
+#navefire{
+	display:block;
+	margin:auto;
+	padding-top:10%;
+	
+	height:100%;
+	
+}
+#ground{
+	width:100%;
+	height: 20%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	border: 0px solid yellow;
+}
+
+#alien{	
+	position:absolute;
+	float:left;
+	bottom:40px;
+	left:150px;
+	width: 10%;
+	height: 15%;
+}
+.pauseMenu ul{
+	list-style-type:none;
+	margin:auto;
+	margin-top:50%;
+	padding:0;
+	width:60%;
+	background: rgba(0,0,255, 0.3);
+	border: 1px solid yellow;
+	font-size:18px;
+}
+
+.pauseMenu li a{
+	display:block;
+	color: rgb(255,255,0);
+	padding: 10px 20px;
+	text-decoration: none;
+
+}
+
+.pauseMenu li{
+	text-align:center;
+	border-bottom:1px solid yellow;
+}
+.pauseMenu li a:hover {
+    background: rgba(128,0,128,0.3);
+    color: rgb(0,255,0);
+}
+.pauseMenu li:last-child{
+	border-bottom: none;
+}
+
+#pause{
+	float:right;
+	margin-top:5px;
+	margin-right: 50px;
+	width:60px;
+	height: 60px;
+	border: 1px solid green;
+	background:rgba(250,0,255,0.5);
+}
+#pause:hover{
+	background: rgba(255,0,255,1);
+}
+#box_stats{
+	margin-left:3%;
+	margin-top:3%;
+	width:140px;
+	height: 140px;
+	display: block;
+	border: 1px solid green;
+	background: rgba(255,55,255,0.5);
+}
+#gasolina,#speed{
+	margin-right: 5%;
+	margin-top:10%;
+	width: 45px;
+	height: 45px;
+	display:inline-block;
+	float:right;
+	border: 1px solid black;
+	background: rgba(0,255,0,0.5);
+}
+.stats{
+	padding-top: 5%;
+	width:60px;
+	padding-left: 5px;
+	display: inline-block;
+}

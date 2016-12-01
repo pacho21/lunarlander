@@ -1,0 +1,71 @@
+body{
+background-image: url("../img/fondo.png");
+}
+
+div{
+	margin:auto;
+	width:80%;
+	margin-top:20%;
+	margin-bottom:25%;
+	border-color:black;
+	border: 1px solid yellow;
+	padding-top:5%;
+	padding-right: 5%;
+	padding-left:5%;
+	padding-bottom:5%;
+	background:rgba(255,0,255,0.10);
+}
+.startMenu ul{
+	list-style-type:none;
+	margin:auto;
+	padding:0;
+	width:90%;
+	background: rgba(0,0,255, 0.3);
+	border: 1px solid yellow;
+	font-size:50px;
+}
+
+.startMenu li a{
+	display:block;
+	color: rgb(255,255,0);
+	padding: 10px 10px;
+	text-decoration: none;
+
+}
+
+.startMenu li{
+	text-align:center;
+	border-bottom:1px solid yellow;
+}
+.startMenu li a:hover {
+    background: rgba(128,0,128,0.3);
+    color: rgb(0,255,0);
+}
+.startMenu li:last-child{
+	border-bottom: none;
+}
+
+img {
+float:left;
+}
+
+#home img {
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+.instructions h1,p{
+	margin-left:15px;
+	text-align:left;
+	color:white;
+
+}
+.instructions p{
+		font-size: 30px;
+
+}
+.instructions h1{
+	font-size: 30px;
+	color:orange;
+}
